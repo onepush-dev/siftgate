@@ -2,7 +2,7 @@
 
 [SiftGate](https://github.com/seanbabalala/SiftGate) (MIT): a self-hosted AI gateway for team AI governance. Give every app or teammate a scoped gateway key, route OpenAI/Anthropic-compatible traffic to your providers, and enforce budgets, rate limits and policy namespaces with metadata-only audit logs. Deploy it on Railway with one click.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/TEMPLATE_CODE)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/H5VaiT)
 
 ## What this template runs
 - **siftgate**: `ghcr.io/onepush-dev/siftgate:v2.14.0`, built from upstream's own Dockerfile at tag `v2.14.0` (application unmodified). One volume at `/app/data` holds the SQLite database and the gateway config. Listens on port 8080; health check `/live` (readiness `/ready`).
